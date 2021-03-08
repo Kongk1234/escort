@@ -8,15 +8,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. <br></br>
-          Hello there general Kenobi
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/watch?v=rEq1Z0bjdwc"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello there, General Kenobi
         </a>
       </header>
     </div>
