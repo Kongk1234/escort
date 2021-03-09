@@ -1,1 +1,1 @@
-export {default as Kasper} from './kasper';
+export {default as Home} from './home';
