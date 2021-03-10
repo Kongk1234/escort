@@ -1,14 +1,26 @@
-.annoncediv{
-    margin-top: 5%;
-}
 #annoncedivimg{
     float:left;
     height: 200px;
     width: 200px;
     margin-left: 20%;
     border: 1px solid black;
+    margin-right: 1%;
 }
-#profileinfo{
-    float:left;
-    margin-left: 2%;
+.annonce{
+    margin-bottom: 12%;
 }
+
+textarea{
+resize: none;
+}
+
+.home{
+    border: 1px solid black;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.checked {
+    color: orange;
+  }

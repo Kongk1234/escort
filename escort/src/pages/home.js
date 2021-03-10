@@ -1,4 +1,5 @@
 import {Annonce} from '../componets';
+import '../css/annoncediv.css';
 
 function Home() {
     return (
