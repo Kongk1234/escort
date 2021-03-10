@@ -1,4 +1,4 @@
-function annonce(image, desc){
+function Annonce(image, desc){
     return(
         <div className="annonce">
             <div>
@@ -9,4 +9,4 @@ function annonce(image, desc){
     );
 }
 
-export default annonce;
+export default Annonce;
