@@ -1,4 +1,14 @@
 .annoncediv{
-    margin: 0 auto;
-    text-align: center;
+    margin-top: 5%;
+}
+#annoncedivimg{
+    float:left;
+    height: 200px;
+    width: 200px;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+#profileinfo{
+    float:left;
+    margin-left: 2%;
 }

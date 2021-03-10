@@ -5,7 +5,8 @@ function Home() {
         <div className="home">
             <h1>Hello there</h1>
             <h2>General Kenobi</h2>
-            <Annonce image="/images/nice.png" desc="hello"/>
+            <Annonce image="/images/Capture.png" name="Dejlige Birgitte" desc="hello kom knep mig"/>
+            <Annonce image="/images/Capture.png" name="Gay Arvad" desc="hello kom knep mig hårdt i røven"/>
         </div>
     );
 }
