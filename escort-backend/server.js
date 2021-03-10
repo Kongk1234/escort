@@ -1,10 +1,21 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const path = require('path');
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.use('/images', express.static('images'))
+app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.json())
+
+//Routes import
+const images = require('./routes/images.routes');
+
+app.get('/', (req, res) => {
+    res.send("Hello there");
+})
+
+app.use('/images/all', express.static('images'))
+
+app.use('/images', images);
 
 app.listen(port, () => {
     console.log('port: 3001');
