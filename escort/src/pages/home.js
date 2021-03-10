@@ -3,10 +3,10 @@ import {Annonce} from '../componets';
 function Home() {
     return (
         <div className="home">
-            <Annonce image="/images/meme.jpg" name="Dejlige Birgitte" desc="hello kom knep mig"/>
-            <Annonce image="/images/meme.jpg" name="Gay Arvad" desc="hello kom knep mig hårdt i røven"/>
-            <Annonce image="/images/meme.jpg" name="Dejlige Birgitte" desc="hello kom knep mig"/>
-            <Annonce image="/images/meme.jpg" name="Dadler" desc="Kom og køb, kom og køb"/>
+            <Annonce image="/images/meme.jpg" name="Dejlige Birgitte" desc="Silence wench"/>
+            <Annonce image="/images/meme.jpg" name="Gay Arvad" desc="I do not wish to be horny anymore"/>
+            <Annonce image="/images/meme.jpg" name="Dejlige" desc="I just want to be happy"/>
+            <Annonce image="/images/meme.jpg" name="Dadler" desc="Aaaaaaaaaaaaaaaaaaaahhhhh"/>
         </div>
     );
 }
