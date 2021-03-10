@@ -6,8 +6,12 @@ router.get('/', (req, res) => {
     images.test(req, res);
 });
 
-router.post('/upload', (req, res, next) => {
-    images.upload(req, res, next);
+router.post('/upload', (req, res) => {
+    images.upload(req, res);
+});
+
+router.post('/kasper', (req, res) => {
+    res.send('Your name is: ' + req.body.name)
 });
 
 module.exports = router;
