@@ -1,11 +1,11 @@
-import { Annonce } from '../componets/annonce';
+import {Annonce} from '../componets';
 
 function Home() {
     return (
         <div className="home">
             <h1>Hello there</h1>
             <h2>General Kenobi</h2>
-            <script src={Annonce("../images/halloo.png", "tester")}></script>
+            <Annonce image="../images/nice.png" desc="hello"/>
         </div>
     );
 }

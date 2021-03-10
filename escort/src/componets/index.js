@@ -1,0 +1,1 @@
+export {default as Annonce} from './annonce';

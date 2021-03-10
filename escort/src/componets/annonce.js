@@ -1,9 +1,9 @@
-function Annonce(image, desc){
+function Annonce(props){
     return(
         <div className="annonce">
             <div>
-            <img src={image}></img>
-            <p>{desc}</p>
+                <img src={props.image}></img>
+                <p>{props.desc}</p>
             </div>
         </div>
     );
