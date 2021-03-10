@@ -5,7 +5,7 @@ function Home() {
         <div className="home">
             <h1>Hello there</h1>
             <h2>General Kenobi</h2>
-            <script>Annonce("../images/halloo.png");</script>
+            <script src={Annonce("../images/halloo.png", "tester")}></script>
         </div>
     );
 }
