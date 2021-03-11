@@ -6,21 +6,23 @@
     border: 1px solid black;
     margin-right: 1%;
 }
-.annonce{
-    margin-bottom: 12%;
-}
 
 textarea{
 resize: none;
 }
 
-.home{
+.annonce{
     border: 1px solid black;
-    width: 40%;
-    height: 100%;
+    width: 50%;
+    height: 655px;   
     margin: 0 auto;
+    overflow: scroll;
 }
 
 .checked {
     color: orange;
   }
+
+.annoncediv{
+    margin-bottom: 15%;
+}
