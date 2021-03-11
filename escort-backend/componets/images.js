@@ -11,8 +11,7 @@ const storage = multer.diskStorage({
 
 const path = multer({storage: storage}).single("demo_image")
 
-
-var Images = {
+let Images = {
     test: function(req, res){
         res.send("General kenobi");
     },
