@@ -13,21 +13,21 @@ class MyComponent extends React.Component {
     }
     
     addannonce = () => {
-                fetch('/json/annonce.json')
-                    .then(res => res.json())
-                    .then(
-                        result => {
-                            this.setState({
-                                annonce: result.annonce
-                            });
-                        },
-                        error => {
-                            console.log("Error: " + error);
-                            this.setState({
-                                error
-                            });
-                        }
-                    )
+        fetch('/json/annonce.json')
+        .then(res => res.json())
+        .then(
+            result => {
+                this.setState({
+                    annonce: result.annonce
+                });
+            },
+            error => {
+                console.log("Error: " + error);
+                this.setState({
+                    error
+                });
+            }
+        )
     }
 
     shortAnnonce = () => {
