@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
     res.send("Hello there");
 })
 
+//To be moved into componets/images.js
 app.use('/images/all', express.static('./images'))
 
 app.use('/images', images);
