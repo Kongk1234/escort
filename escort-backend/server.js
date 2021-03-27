@@ -9,6 +9,7 @@ app.use(bodyParser.json())
 
 //Routes import
 const images = require('./routes/images.routes');
+const escort = require('./routes/escort.routes');
 
 app.get('/', (req, res) => {
     res.send("Hello there");
@@ -18,6 +19,8 @@ app.get('/', (req, res) => {
 app.use('/images/all', express.static('./images'))
 
 app.use('/images', images);
+
+app.use('/escort', escort);
 
 app.listen(port, () => {
     console.log('port: 3001');
