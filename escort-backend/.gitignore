@@ -115,6 +115,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Custom Files and folders
 images/*.png
 images/*.jpg
 images/*.jpeg
+
+.env
