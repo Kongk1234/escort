@@ -18,4 +18,8 @@ router.get('/getone', (req, res) =>{
     escort.getone(req, res);
 });
 
+router.post('/delete', (req, res) =>{
+    escort.delete(req, res);
+})
+
 module.exports = router;

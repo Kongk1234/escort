@@ -14,15 +14,22 @@ let Escort = {
     getall: function(req, res){
         db.query("SELECT * FROM escort", function(err, result){
             if (err) res.send({Error: err});
-            res.send(result);
+            res.send({message: result});
         });
     },
     getone: function(req, res){
         db.query("SELECT * FROM escort WHERE EscortID = ?",
         [req.query.id], function(err, result){
             if (err) res.send({Error: err});
-            res.send(result);
+            res.send({message: result});
         });
+    },
+    delete: function(req, res){
+        db.query("DELETE FROM escort WHERE EscortID = ?",
+        [req.body.Id], function(err, result){
+            if (err) res.send({Error: err});
+            res.send({message: result})
+        })
     }
 }
 
